@@ -1,14 +1,2447 @@
-<!DOCTYPE html>
-<html>
+<html class="desktop mbr-site-loaded" style="">
+
 <head>
-  <title>Mi Página de Ejemplo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="https://r.mobirisesite.com/1771470/assets/images/logo.png?rnd=1756262388138"
+        type="image/x-icon">
+    <meta name="description"
+        content="Ingeniero en Tecnologías Computacionales experto en APIs RESTful y React Native. Especializado en integración de sistemas y microservicios para optimizar plataformas digitales.">
+    <title>Ingeniero en Tecnologías Computacionales: APIs RESTful, React Native y Microservicios</title>
+    <link rel="stylesheet"
+        href="https://r.mobirisesite.com/1771470/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1756262388136">
+    <link rel="stylesheet"
+        href="https://r.mobirisesite.com/1771470/assets/bootstrap/css/bootstrap.min.css?rnd=1756262388136">
+    <link rel="stylesheet" href="https://r.mobirisesite.com/1771470/assets/parallax/jarallax.css?rnd=1756262388136">
+    <link rel="stylesheet" href="https://r.mobirisesite.com/1771470/assets/dropdown/css/style.css?rnd=1756262388136">
+    <link rel="stylesheet" href="https://r.mobirisesite.com/1771470/assets/socicon/css/styles.css?rnd=1756262388136">
+    <link rel="stylesheet" href="https://r.mobirisesite.com/1771470/assets/theme/css/style.css?rnd=1756262388136">
+    <link rel="stylesheet" href="https://r.mobirisesite.com/1771470/assets/recaptcha.css?rnd=1756262388136">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&amp;display=swap&amp;display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap&display=swap">
+    </noscript>
+    <link rel="stylesheet" href="https://r.mobirisesite.com/1771470/assets/css/mbr-additional.css?rnd=1756262388136"
+        type="text/css">
+
+
+
+
+
+
+    <style>
+        .navbar-fixed-top {
+            top: auto;
+        }
+
+        #mobirisePromo.container-banner {
+            height: 11rem;
+            opacity: 1;
+            -webkit-animation: 11s linear animationHeight;
+            -moz-animation: 11s linear animationHeight;
+            -o-animation: 11s linear animationHeight;
+            animation: 11s linear animationHeight;
+            transition: all 0.5s;
+        }
+
+        #mobirisePromo.container-banner.container-banner-closing {
+            pointer-events: none;
+            height: 0;
+            opacity: 0;
+            -webkit-animation: 0.5s linear animationClosing;
+            -moz-animation: 0.5s linear animationClosing;
+            -o-animation: 0.5s linear animationClosing;
+            animation: 0.5s linear animationClosing;
+        }
+
+        #mobirisePromo .banner {
+            min-height: 11rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #fff;
+            padding: 10px;
+            opacity: 1;
+            -webkit-animation: 11s linear animationBanner;
+            -moz-animation: 11s linear animationBanner;
+            -o-animation: 11s linear animationBanner;
+            animation: 11s linear animationBanner;
+            z-index: 1031;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #mobirisePromo .banner p {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            animation: none;
+            visibility: visible;
+        }
+
+        #mobirisePromo .buy-license {
+            text-decoration: underline;
+        }
+
+        #mobirisePromo .banner .btn {
+            margin: 0.3rem 0.5rem;
+            animation: none;
+            visibility: visible;
+        }
+
+        .navbar.opened {
+            z-index: 1032;
+        }
+
+        #mobirisePromo .mbr-section-abuse-report {
+            margin-top: 0.8rem;
+            font-size: 80%;
+        }
+
+        #mobirisePromo .mbr-section-abuse-report a {
+            color: #aaa;
+        }
+
+        @-webkit-keyframes animationBanner {
+            0% {
+                opacity: 0;
+                top: -11rem;
+            }
+
+            91% {
+                opacity: 0;
+                top: -11rem;
+            }
+
+            100% {
+                opacity: 1;
+                top: 0;
+            }
+        }
+
+        @-moz-keyframes animationBanner {
+            0% {
+                opacity: 0;
+                top: -11rem;
+            }
+
+            91% {
+                opacity: 0;
+                top: -11rem;
+            }
+
+            100% {
+                opacity: 1;
+                top: 0;
+            }
+        }
+
+        @-o-keyframes animationBanner {
+            0% {
+                opacity: 0;
+                top: -11rem;
+            }
+
+            91% {
+                opacity: 0;
+                top: -11rem;
+            }
+
+            100% {
+                opacity: 1;
+                top: 0;
+            }
+        }
+
+        @keyframes animationBanner {
+            0% {
+                opacity: 0;
+                top: -11rem;
+            }
+
+            91% {
+                opacity: 0;
+                top: -11rem;
+            }
+
+            100% {
+                opacity: 1;
+                top: 0;
+            }
+        }
+
+        @-webkit-keyframes animationHeight {
+            0% {
+                height: 0;
+            }
+
+            91% {
+                height: 0;
+            }
+
+            100% {
+                height: 11rem;
+            }
+        }
+
+        @-moz-keyframes animationHeight {
+            0% {
+                height: 0;
+            }
+
+            91% {
+                height: 0;
+            }
+
+            100% {
+                height: 11rem;
+            }
+        }
+
+        @-o-keyframes animationHeight {
+            0% {
+                height: 0;
+            }
+
+            91% {
+                height: 0;
+            }
+
+            100% {
+                height: 11rem;
+            }
+        }
+
+        @keyframes animationHeight {
+            0% {
+                height: 0;
+            }
+
+            91% {
+                height: 0;
+            }
+
+            100% {
+                height: 11rem;
+            }
+        }
+
+        @-webkit-keyframes animationClosing {
+            0% {
+                height: 11rem;
+                opacity: 1;
+            }
+
+            30% {
+                height: 11rem;
+                opacity: 0.5;
+            }
+
+            100% {
+                height: 0;
+                opacity: 0;
+            }
+        }
+
+        @-moz-keyframes animationClosing {
+            0% {
+                height: 11rem;
+                opacity: 1;
+            }
+
+            30% {
+                height: 11rem;
+                opacity: 0.5;
+            }
+
+            100% {
+                height: 0;
+                opacity: 0;
+            }
+        }
+
+        @-o-keyframes animationClosing {
+            0% {
+                height: 11rem;
+                opacity: 1;
+            }
+
+            30% {
+                height: 11rem;
+                opacity: 0.5;
+            }
+
+            100% {
+                height: 0;
+                opacity: 0;
+            }
+        }
+
+        @keyframes animationClosing {
+            0% {
+                height: 11rem;
+                opacity: 1;
+            }
+
+            30% {
+                height: 11rem;
+                opacity: 0.5;
+            }
+
+            100% {
+                height: 0;
+                opacity: 0;
+            }
+        }
+
+        @media(max-width: 575px) {
+            #mobirisePromo.container-banner {
+                height: 14rem;
+            }
+
+            #mobirisePromo .banner {
+                min-height: 14rem;
+            }
+
+            @-webkit-keyframes animationBanner {
+                0% {
+                    opacity: 0;
+                    top: -14rem;
+                }
+
+                91% {
+                    opacity: 0;
+                    top: -14rem;
+                }
+
+                100% {
+                    opacity: 1;
+                    top: 0;
+                }
+            }
+
+            @-moz-keyframes animationBanner {
+                0% {
+                    opacity: 0;
+                    top: -14rem;
+                }
+
+                91% {
+                    opacity: 0;
+                    top: -14rem;
+                }
+
+                100% {
+                    opacity: 1;
+                    top: 0;
+                }
+            }
+
+            @-o-keyframes animationBanner {
+                0% {
+                    opacity: 0;
+                    top: -14rem;
+                }
+
+                91% {
+                    opacity: 0;
+                    top: -14rem;
+                }
+
+                100% {
+                    opacity: 1;
+                    top: 0;
+                }
+            }
+
+            @keyframes animationBanner {
+                0% {
+                    opacity: 0;
+                    top: -14rem;
+                }
+
+                91% {
+                    opacity: 0;
+                    top: -14rem;
+                }
+
+                100% {
+                    opacity: 1;
+                    top: 0;
+                }
+            }
+
+            @-webkit-keyframes animationHeight {
+                0% {
+                    height: 0;
+                }
+
+                91% {
+                    height: 0;
+                }
+
+                100% {
+                    height: 14rem;
+                }
+            }
+
+            @-moz-keyframes animationHeight {
+                0% {
+                    height: 0;
+                }
+
+                91% {
+                    height: 0;
+                }
+
+                100% {
+                    height: 14rem;
+                }
+            }
+
+            @-o-keyframes animationHeight {
+                0% {
+                    height: 0;
+                }
+
+                91% {
+                    height: 0;
+                }
+
+                100% {
+                    height: 14rem;
+                }
+            }
+
+            @keyframes animationHeight {
+                0% {
+                    height: 0;
+                }
+
+                91% {
+                    height: 0;
+                }
+
+                100% {
+                    height: 14rem;
+                }
+            }
+
+            @-webkit-keyframes animationClosing {
+                0% {
+                    height: 14rem;
+                    opacity: 1;
+                }
+
+                30% {
+                    height: 14rem;
+                    opacity: 0.5;
+                }
+
+                100% {
+                    height: 0;
+                    opacity: 0;
+                }
+            }
+
+            @-moz-keyframes animationClosing {
+                0% {
+                    height: 14rem;
+                    opacity: 1;
+                }
+
+                30% {
+                    height: 14rem;
+                    opacity: 0.5;
+                }
+
+                100% {
+                    height: 0;
+                    opacity: 0;
+                }
+            }
+
+            @-o-keyframes animationClosing {
+                0% {
+                    height: 14rem;
+                    opacity: 1;
+                }
+
+                30% {
+                    height: 14rem;
+                    opacity: 0.5;
+                }
+
+                100% {
+                    height: 0;
+                    opacity: 0;
+                }
+            }
+
+            @keyframes animationClosing {
+                0% {
+                    height: 14rem;
+                    opacity: 1;
+                }
+
+                30% {
+                    height: 14rem;
+                    opacity: 0.5;
+                }
+
+                100% {
+                    height: 0;
+                    opacity: 0;
+                }
+            }
+        }
+    </style>
+    <script type="text/javascript" id="www-widgetapi-script"
+        src="https://www.youtube.com/s/player/6742b2b9/www-widgetapi.vflset/www-widgetapi.js" async=""></script>
+    <script async="" src="https://www.youtube.com/iframe_api"></script>
 </head>
+
 <body>
+    <div class="container-banner container-banner-closing" id="mobirisePromo">
+        <div class="banner align-center">
+            <button type="button"
+                onclick="document.getElementById('mobirisePromo').classList.add('container-banner-closing')"
+                class="btn-close" aria-label="Close" style="position: fixed;top: 16px;right: 16px;"></button>
+            <p class="mbr-text mbr-fonts-style display-7">The site was made with <a href="https://ai.mobirise.com/"
+                    class="">Free AI Website Builder</a></p>
+            <div class="mbr-section-btn">
+                <a class="btn btn-sm btn-primary display-4" href="https://mobirise.com/p/">Get AI Kit!</a>
+                <a class="btn btn-sm btn-secondary display-4"
+                    href="https://my.mobirise.com/buy.php?p=126&amp;u=4173010&amp;st=1771470&amp;dm=1771470.mobirisesite.com">Remove
+                    This Banner</a>
+            </div>
+            <div class="mbr-section-abuse-report">
+                <a href="mailto:support@mobirise.com?subject=Mobirise Abuse Report 1771470.mobirisesite.com">Report
+                    Abuse</a>
+            </div>
+        </div>
+    </div>
 
-  <h1>¡Hola Mundo!</h1>
-  <p>Este es un ejemplo simple de una página web en HTML.</p>
-  <a href="https://www.google.com">Ir a Google</a>
-  <img src="imagen.jpg" alt="Una imagen de ejemplo">
+    <section data-bs-version="5.1" class="menu menu01 progressm5 cid-uV2o8zzHqx" once="menu" id="menu-1-uV2o8zzHqx">
 
+
+
+        <nav class="navbar navbar-dropdown navbar-expand-lg opacityScroll">
+            <div class="menu_box container-fluid">
+                <div class="navbar-brand d-flex">
+
+                    <span class="navbar-caption-wrap">
+                        <a class="navbar-caption display-7" href="#">CodeCrafter</a>
+                    </span>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse"
+                        data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse opacityScroll" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+                        <li class="nav-item">
+                            <a class="nav-link link display-4" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link display-4" href="#">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link display-4" href="#">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link display-4" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <div class="mbr-section-btn-main" role="tablist">
+                        <a class="btn btn-primary display-4" href="#">Contratar</a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section data-bs-version="5.1" class="header01 mbr-embla progressm5 cid-uV2o8zA6JL" id="hero-1-uV2o8zA6JL">
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1629904853893-c2c8981a1dc5.jpeg"
+                                alt="">
+                        </div>
+                        <h1 class="mbr-section-title mbr-fonts-style display-1">Código que Muerde</h1>
+                        <div class="slider-wrapper">
+                            <div class="embla" data-skip-snaps="true" data-align="center"
+                                data-contain-scroll="trimSnaps" data-loop="true" data-auto-play="true"
+                                data-auto-play-interval="4" data-draggable="true">
+                                <div class="embla__viewport is-draggable">
+                                    <div class="embla__container" style="transform: translate3d(-2.40964%, 0px, 0px);">
+                                        <div class="embla__slide slider-image item is-selected"
+                                            style="margin-left: 1rem; margin-right: 1rem; left: 0%;">
+                                            <div class="slide-content">
+                                                <div class="item-wrapper">
+                                                    <div class="item-img  item-number">
+                                                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1607743386760-88ac62b89b8a.jpeg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <div class="text-wrap">
+                                                            <h4 class="item-title mbr-fonts-style display-4">APIs</h4>
+                                                            <p class="item-text mbr-fonts-style display-4">Desarrollo de
+                                                                APIs RESTful robustas y escalables.</p>
+                                                        </div>
+                                                        <div class="icon-wrapper">
+                                                            <a href="#">
+                                                                <span
+                                                                    class="mobi-mbri mobi-mbri-share mbr-iconfont"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="embla__slide slider-image item"
+                                            style="margin-left: 1rem; margin-right: 1rem;">
+                                            <div class="slide-content">
+                                                <div class="item-wrapper">
+                                                    <div class="item-img  item-number">
+                                                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1534972195531-d756b9bfa9f2.jpeg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <div class="text-wrap">
+                                                            <h4 class="item-title mbr-fonts-style display-4">Móvil</h4>
+                                                            <p class="item-text mbr-fonts-style display-4">Aplicaciones
+                                                                nativas con React Native.</p>
+                                                        </div>
+                                                        <div class="icon-wrapper">
+                                                            <a href="#">
+                                                                <span
+                                                                    class="mobi-mbri mobi-mbri-share mbr-iconfont"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="embla__slide slider-image item"
+                                            style="margin-left: 1rem; margin-right: 1rem;">
+                                            <div class="slide-content">
+                                                <div class="item-wrapper">
+                                                    <div class="item-img  item-number">
+                                                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1607799279861-4dd421887fb3.jpeg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <div class="text-wrap">
+                                                            <h4 class="item-title mbr-fonts-style display-4">Sistemas
+                                                            </h4>
+                                                            <p class="item-text mbr-fonts-style display-4">Integración y
+                                                                microservicios.</p>
+                                                        </div>
+                                                        <div class="icon-wrapper">
+                                                            <a href="#">
+                                                                <span
+                                                                    class="mobi-mbri mobi-mbri-share mbr-iconfont"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="embla__button embla__button--prev">
+                                    <span class="mobi-mbri mobi-mbri-left mbr-iconfont" aria-hidden="true"></span>
+                                    <span
+                                        class="sr-only visually-hidden visually-hidden visually-hidden">Previous</span>
+                                </button>
+                                <button class="embla__button embla__button--next">
+                                    <span class="mobi-mbri mobi-mbri-right mbr-iconfont" aria-hidden="true"></span>
+                                    <span class="sr-only visually-hidden visually-hidden visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-2">Ingeniero computacional listo para hacer magia
+                                digital.</p>
+                        </div>
+                        <div class="mbr-section-btn">
+                            <a class="btn btn-primary display-4" href="#">Ver Portafolio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="features01 progressm5 cid-uV2o8zBSZK" id="features-1-uV2o8zBSZK">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-wrapper">
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">Mis Superpoderes Digitales</h2>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-4">Transformo ideas complejas en soluciones
+                                digitales eficientes y elegantes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row items-wrapper">
+                <div class="item features-image col-12 col-lg-6">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1605379399642-870262d3d051.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="number-wrap">
+                                    <p class="item-number mbr-fonts-style display-4">
+                                        01
+                                    </p>
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">Desarrollo Full-Stack</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Desde el backend con Python y C#
+                                        hasta el frontend con React Native.</p>
+                                </div>
+                            </div>
+                            <div class="icon-wrapper">
+                                <a href="#">
+                                    <span class="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-image col-12 col-lg-6">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1542831371-29b0f74f9713.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="number-wrap">
+                                    <p class="item-number mbr-fonts-style display-4">
+                                        02
+                                    </p>
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">Optimización Constante</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Mejoro plataformas existentes para un
+                                        rendimiento superior.</p>
+                                </div>
+                            </div>
+                            <div class="icon-wrapper">
+                                <a href="#">
+                                    <span class="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="list01 progressm5 cid-uV2o8zBQlg" id="faq-1-uV2o8zBQlg">
+
+
+
+
+
+        <div class="container">
+            <div class="row items-wrapper">
+                <div class="col-12 col-lg-6 card">
+                    <div class="content-wrapper">
+                        <div class="title-wrapper">
+                            <h2 class="mbr-section-title mbr-fonts-style display-2">Preguntas Frecuentes (¡No seas
+                                tímido!)</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 card">
+                    <div id="bootstrap-accordion_3" class="panel-group accordionStyles accordion" role="tablist"
+                        aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse"
+                                    data-bs-toggle="collapse" data-core="" href="#collapse1_3" aria-expanded="false"
+                                    aria-controls="collapse1">
+                                    <h4 class="panel-title-edit mbr-fonts-style display-7">¿Qué lenguajes dominas?</h4>
+                                    <div class="icon-wrapper">
+                                        <span class="sign mbr-iconfont mobi-mbri-plus mobi-mbri"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse1_3" class="panel-collapse noScroll collapse" role="tabpanel"
+                                aria-labelledby="headingOne" data-parent="#accordion"
+                                data-bs-parent="#bootstrap-accordion_3">
+                                <div class="panel-body">
+                                    <p class="panel-text mbr-fonts-style display-4">JavaScript, Python, C#, PHP,
+                                        HTML/CSS. ¡Soy un camaleón del código!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse"
+                                    data-bs-toggle="collapse" data-core="" href="#collapse2_3" aria-expanded="false"
+                                    aria-controls="collapse2">
+                                    <h4 class="panel-title-edit mbr-fonts-style display-7">¿Experiencia con bases de
+                                        datos?</h4>
+                                    <div class="icon-wrapper">
+                                        <span class="sign mbr-iconfont mobi-mbri-plus mobi-mbri"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse2_3" class="panel-collapse noScroll collapse" role="tabpanel"
+                                aria-labelledby="headingTwo" data-parent="#accordion"
+                                data-bs-parent="#bootstrap-accordion_3">
+                                <div class="panel-body">
+                                    <p class="panel-text mbr-fonts-style display-4">Sí, MySQL es mi cómplice para datos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse"
+                                    data-bs-toggle="collapse" data-core="" href="#collapse3_3" aria-expanded="false"
+                                    aria-controls="collapse3">
+                                    <h4 class="panel-title-edit mbr-fonts-style display-7">¿Buscas proyectos
+                                        específicos?</h4>
+                                    <div class="icon-wrapper">
+                                        <span class="sign mbr-iconfont mobi-mbri-plus mobi-mbri"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse3_3" class="panel-collapse noScroll collapse" role="tabpanel"
+                                aria-labelledby="headingThree" data-parent="#accordion"
+                                data-bs-parent="#bootstrap-accordion_3">
+                                <div class="panel-body">
+                                    <p class="panel-text mbr-fonts-style display-4">Busco desafíos innovadores donde la
+                                        tecnología sea la solución.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingFour">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse"
+                                    data-bs-toggle="collapse" data-core="" href="#collapse4_3" aria-expanded="false"
+                                    aria-controls="collapse4">
+                                    <h4 class="panel-title-edit mbr-fonts-style display-7">¿Puedo ver tu trabajo?</h4>
+                                    <div class="icon-wrapper">
+                                        <span class="sign mbr-iconfont mobi-mbri-plus mobi-mbri"></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapse4_3" class="panel-collapse noScroll collapse" role="tabpanel"
+                                aria-labelledby="headingFour" data-parent="#accordion"
+                                data-bs-parent="#bootstrap-accordion_3">
+                                <div class="panel-body">
+                                    <p class="panel-text mbr-fonts-style display-4">¡Absolutamente! Mi portafolio está
+                                        lleno de maravillas.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="image01 progressm5 cid-uV2o8zCI4O mbr-parallax-background"
+        id="image-1-uV2o8zCI4O" style="z-index: 0; background-image: none; position: relative;">
+
+
+
+        <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(0, 24, 25);"></div>
+
+        <div class="container">
+            <div class="row content-wrapper">
+                <div class="col-12">
+                    <div class="image-wrap"></div>
+                </div>
+            </div>
+        </div>
+        <div id="jarallax-container-0"
+            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
+            <div
+                style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://r.mobirisesite.com/1771470/assets/images/photo-1522252234503-e356532cafd5.jpeg&quot;); position: absolute; top: 0px; left: 0px; width: 934px; height: 670.4px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: 120.3px; transform: translate3d(0px, -1229.01px, 0px);">
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="video01 progressm5 cid-uV2o8zC2wp" id="video-2-uV2o8zC2wp">
+
+
+
+
+
+        <div class="container">
+            <div class="row content-wrapper">
+                <div class="col-12">
+                    <div class="title-wrapper">
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">Mi Código en Acción</h2>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-4">Observa cómo mis creaciones cobran vida y
+                                resuelven problemas reales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-10">
+                    <div class="mbr-figure col-12 mb-5 col-md-"><iframe class="mbr-embedded-video"
+                            src="https://www.youtube.com/embed/BY2mTMBkuFI?rel=0&amp;amp;mute=1&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=BY2mTMBkuFI"
+                            width="1280" height="720" frameborder="0" allowfullscreen=""
+                            style="height: 371px;"></iframe></div>
+                </div>
+                <div class="col-12">
+                    <div class="desc-wrapper">
+                        <p class="mbr-desc mbr-fonts-style display-4">Un vistazo a mi proceso creativo.</p>
+                    </div>
+                    <div class="mbr-section-btn">
+                        <a class="btn btn-secondary display-4" href="#">Ver Demo Completa</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="contacts01 progressm5 cid-uV2o8zC44j" id="map-1-uV2o8zC44j">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="google-map"><iframe frameborder="0" style="border:0"
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCt1265A4qvZy9HKUeA8J15AOC4SrCyZe4&amp;q=San%20Pedro%20Sula%20Honduras"
+                            allowfullscreen=""></iframe></div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section data-bs-version="5.1" class="features01 progressm5 cid-uV2o8zD7c5" id="product-list-1-uV2o8zD7c5">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-wrapper">
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">Inversión en Talento</h2>
+                        <div class="text-wrapper">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row items-wrapper">
+                <div class="item features-image col-12 col-lg-6">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1629904853716-f0bc54eea481.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="number-wrap">
+                                    <p class="item-number mbr-fonts-style display-7">$500</p>
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">Proyecto Pequeño</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Soluciones rápidas para ideas
+                                        emergentes.</p>
+                                    <div class="mbr-section-btn">
+                                        <a class="btn btn-primary display-4" href="#">Contratar Ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-image col-12 col-lg-6">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1498050108023-c5249f4df085.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="number-wrap">
+                                    <p class="item-number mbr-fonts-style display-7">$1500</p>
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">Proyecto Grande</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Desarrollo integral para desafíos
+                                        ambiciosos.</p>
+                                    <div class="mbr-section-btn">
+                                        <a class="btn btn-primary display-4" href="#">Contratar Ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="gallery01 cid-uV2o8zDALl" id="gallery-2-uV2o8zDALl">
+
+
+        <div class="container-fluid gallery-wrapper">
+            <div class="row justify-content-center">
+                <div class="col-12 content-head">
+                    <div class="mbr-section-head">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-container-3" style="transform: translate3d(-200px, 0px, 0px);">
+                    <div class="grid-item">
+                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1617042375876-a13e36732a04.jpeg"
+                            alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1669023414162-5bb06bbff0ec.jpeg"
+                            alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1584949091598-c31daaaa4aa9.jpeg"
+                            alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1551434678-e076c223a692.jpeg"
+                            alt="">&gt;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="article01 progressm5 cid-uV2o8zE3RW" id="generic-text-1-uV2o8zE3RW">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-wrapper">
+                        <div class="title-wrapper">
+                            <h2 class="mbr-section-title mbr-fonts-style display-2">Código y Café</h2>
+                            <div class="text-wrapper">
+                                <p class="mbr-text mbr-fonts-style display-4">Soy un mago de la tecnología,
+                                    transformando ideas locas en apps geniales. Si buscas a alguien que haga que tu
+                                    software brille, ¡aquí estoy!</p>
+                            </div>
+                        </div>
+                        <div class="image-wrapper">
+                            <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1623479322729-28b25c16b011.jpeg"
+                                alt="">
+                        </div>
+                        <div class="mbr-section-btn">
+                            <a class="btn btn-secondary display-4" href="#">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="features02 progressm5 cid-uV2o8zEsjf" id="blog-1-uV2o8zEsjf">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-wrapper">
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">Mis Pensamientos</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row items-wrapper">
+                <div class="item features-image col-12 col-lg-6">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img item-number">
+                                <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1580894908361-967195033215.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="item-content">
+                                <div class="text-wrap">
+                                    <p class="item-date mbr-fonts-style display-4">2023-10-26</p>
+                                    <p class="item-text mbr-fonts-style display-4">APIs RESTful: El arte de la
+                                        comunicación.</p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <a href="#">
+                                        <span class="mobi-mbri mobi-mbri-share mbr-iconfont"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-image col-12 col-lg-6">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img item-number">
+                                <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1602992708529-c9fdb12905c9.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="item-content">
+                                <div class="text-wrap">
+                                    <p class="item-date mbr-fonts-style display-4">2023-10-25</p>
+                                    <p class="item-text mbr-fonts-style display-4">React Native: Apps que vuelan.</p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <a href="#">
+                                        <span class="mobi-mbri mobi-mbri-share mbr-iconfont"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="gallery01 cid-uV2o8zEjE3" id="gallery-1-uV2o8zEjE3">
+
+
+        <div class="container-fluid gallery-wrapper">
+            <div class="row justify-content-center">
+                <div class="col-12 content-head">
+                    <div class="mbr-section-head">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-container-3 moving-left" style="transform: translate3d(-200px, 0px, 0px);">
+                    <div class="grid-item">
+                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1484417894907-623942c8ee29.jpeg"
+                            alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1635830625698-3b9bd74671ca.jpeg"
+                            alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1629904869392-ae2a682d4d01.jpeg"
+                            alt="">
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1511376777868-611b54f68947.jpeg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="features09 progressm5 cid-uV2o8zFjKe" id="features-7-uV2o8zFjKe">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-wrapper">
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">Mis Superpoderes</h2>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-4">Construyo puentes digitales y optimizo
+                                sistemas como un ninja.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row items-wrapper">
+                <div class="item features-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1508830524289-0adcbe822b40.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">Arquitecto de Microservicios</h4>
+                                </div>
+                            </div>
+                            <div class="mbr-section-btn">
+                                <a class="btn btn-primary display-4" href="#">Ver Proyectos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1522071820081-009f0129c71c.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">Maestro de APIs</h4>
+                                </div>
+                            </div>
+                            <div class="mbr-section-btn">
+                                <a class="btn btn-primary display-4" href="#">Ver Proyectos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1510915228340-29c85a43dcfe.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">Ninja de la Optimización</h4>
+                                </div>
+                            </div>
+                            <div class="mbr-section-btn">
+                                <a class="btn btn-primary display-4" href="#">Ver Proyectos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="features04 progressm5 cid-uV2o8zFW1F" id="features-3-uV2o8zFW1F">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-wrapper">
+                        <div class="desc-wrapper">
+                            <p class="mbr-desc mbr-fonts-style display-4">Habilidades</p>
+                        </div>
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">Herramientas de mi Arsenal</h2>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-4">Domino lenguajes y bases de datos para crear
+                                maravillas tecnológicas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row items-wrapper">
+                <div class="item features-without-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="icon-wrap">
+                                <a href="#">
+                                    <span class="mbr-iconfont mobi-mbri-cloud mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div class="item-content">
+                                <div class="text-wrap">
+                                    <h4 class="item-title mbr-fonts-style display-4">JavaScript</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Versátil.</p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <a href="#">
+                                        <span class="mbr-iconfont mobi-mbri-share mobi-mbri"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="icon-wrap">
+                                <a href="#">
+                                    <span class="mbr-iconfont mobi-mbri-cloud mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div class="item-content">
+                                <div class="text-wrap">
+                                    <h4 class="item-title mbr-fonts-style display-4">Python</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Potente.</p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <a href="#">
+                                        <span class="mbr-iconfont mobi-mbri-share mobi-mbri"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="icon-wrap">
+                                <a href="#">
+                                    <span class="mbr-iconfont mobi-mbri-cloud mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div class="item-content">
+                                <div class="text-wrap">
+                                    <h4 class="item-title mbr-fonts-style display-4">MySQL</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Robusta.</p>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <a href="#">
+                                        <span class="mbr-iconfont mobi-mbri-share mobi-mbri"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="mbr-section-btn">
+                        <a class="btn btn-primary display-4" href="#">Contratar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="article03 progressm5 cid-uV2o8zGsdi" id="call-to-action-1-uV2o8zGsdi">
+
+
+
+
+
+        <div class="container">
+            <div class="row items-wrapper">
+                <div class="col-12 col-lg-6 card">
+                    <div class="content-wrapper">
+                        <div class="title-wrapper">
+                            <h2 class="mbr-section-title mbr-fonts-style display-2">¿Listo para Innovar?</h2>
+                            <div class="text-wrapper">
+                                <p class="mbr-text mbr-fonts-style display-4">Si buscas un cerebro brillante para tus
+                                    proyectos tecnológicos, uno que piense fuera de la caja y construya el futuro,
+                                    ¡hablemos! Transformemos ideas audaces en realidades digitales.</p>
+                            </div>
+                            <div class="mbr-section-btn">
+                                <a class="btn btn-primary display-4" href="#">Hablemos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 card">
+                    <div class="image-wrapper">
+                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1629904888099-00285934292b.jpeg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="features03 progressm5 cid-uV2o8zGBWy" id="features-2-uV2o8zGBWy">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-wrapper">
+                        <div class="desc-wrapper">
+                            <p class="mbr-desc mbr-fonts-style display-4">Mi Enfoque</p>
+                        </div>
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">Soluciones a Medida</h2>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-4">Desde cero hasta la perfección, digitalizo
+                                procesos y creo experiencias únicas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row items-wrapper">
+                <div class="item features-without-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-content">
+                                <div class="icon-wrapper-main">
+                                    <a href="#">
+                                        <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                                    </a>
+                                </div>
+                                <div class="text-wrap">
+                                    <p class="item-desc mbr-fonts-style display-4">Completa.</p>
+                                    <h4 class="item-title mbr-fonts-style display-7">Apps Móviles</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Desarrollo de aplicaciones móviles
+                                        integradas con APIs personalizadas.</p>
+                                </div>
+                            </div>
+                            <div class="icon-wrapper">
+                                <a href="#">
+                                    <span class="mbr-iconfont mobi-mbri-share mobi-mbri"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-content">
+                                <div class="icon-wrapper-main">
+                                    <a href="#">
+                                        <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                                    </a>
+                                </div>
+                                <div class="text-wrap">
+                                    <p class="item-desc mbr-fonts-style display-4">Eficiente.</p>
+                                    <h4 class="item-title mbr-fonts-style display-7">Digitalización</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Automatizo procesos para maximizar la
+                                        eficiencia operativa.</p>
+                                </div>
+                            </div>
+                            <div class="icon-wrapper">
+                                <a href="#">
+                                    <span class="mbr-iconfont mobi-mbri-share mobi-mbri"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-content">
+                                <div class="icon-wrapper-main">
+                                    <a href="#">
+                                        <span class="mbr-iconfont mobi-mbri-success mobi-mbri"></span>
+                                    </a>
+                                </div>
+                                <div class="text-wrap">
+                                    <p class="item-desc mbr-fonts-style display-4">Conectado.</p>
+                                    <h4 class="item-title mbr-fonts-style display-7">Integración</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Creo microservicios para plataformas
+                                        digitales robustas.</p>
+                                </div>
+                            </div>
+                            <div class="icon-wrapper">
+                                <a href="#">
+                                    <span class="mbr-iconfont mobi-mbri-share mobi-mbri"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="features07 progressm5 cid-uV2o8zGkZD" id="features-5-uV2o8zGkZD">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-wrapper">
+                        <div class="desc-wrapper">
+                            <p class="mbr-desc mbr-fonts-style display-4">Mi Código</p>
+                        </div>
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">Ingeniero Digital</h2>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-4">Desarrollo APIs RESTful y apps móviles con
+                                React Native. Integración de sistemas y microservicios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row items-wrapper">
+                <div class="item features-image col-12 col-lg-6">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1629905679177-4c4e2623654f.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">APIs y Móvil</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Experto en crear APIs RESTful
+                                        robustas y aplicaciones móviles fluidas con React Native.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-image col-12 col-lg-6">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1566837945700-30057527ade0.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">Microservicios</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Especializado en la arquitectura de
+                                        microservicios para plataformas escalables y eficientes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="features05 progressm5 cid-uV2o8zHk9P" id="blog-2-uV2o8zHk9P">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-wrapper">
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">Mis Proyectos</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row items-wrapper">
+                <div class="item features-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1622674777904-386b3ef30c4a.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-4">Digitalización</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Transformé procesos manuales en
+                                        soluciones digitales, disparando la eficiencia operativa.</p>
+                                </div>
+                            </div>
+                            <div class="date-wrapper">
+                                <p class="item-date mbr-fonts-style display-4">2023-10-26</p>
+                                <div class="icon-wrapper">
+                                    <a href="#">
+                                        <span class="mbr-iconfont mobi-mbri-share mobi-mbri"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1587620962725-abab7fe55159.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-4">Integración</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Conecté sistemas dispares, creando un
+                                        flujo de datos sin fisuras para mejorar la toma de decisiones.</p>
+                                </div>
+                            </div>
+                            <div class="date-wrapper">
+                                <p class="item-date mbr-fonts-style display-4">2023-09-15</p>
+                                <div class="icon-wrapper">
+                                    <a href="#">
+                                        <span class="mbr-iconfont mobi-mbri-share mobi-mbri"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1603468620905-8de7d86b781e.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-4">Optimización</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Refiné plataformas existentes,
+                                        logrando un rendimiento superior y una experiencia de usuario mejorada.</p>
+                                </div>
+                            </div>
+                            <div class="date-wrapper">
+                                <p class="item-date mbr-fonts-style display-4">2023-08-01</p>
+                                <div class="icon-wrapper">
+                                    <a href="#">
+                                        <span class="mbr-iconfont mobi-mbri-share mobi-mbri"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="mbr-section-btn">
+                        <a class="btn btn-primary display-4" href="#">Ver Más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="features10 progressm5 cid-uV2o8zHNVg" id="features-8-uV2o8zHNVg">
+
+
+
+
+
+        <div class="container">
+            <div class="row items-wrapper">
+                <div class="item features-image col-12 col-lg-6">
+                    <div class="item-wrapper">
+                        <div class="item-content">
+                            <h4 class="item-title mbr-fonts-style display-5">Soluciones Completas</h4>
+                            <p class="item-text mbr-fonts-style display-4">Desde cero hasta la implementación, creo
+                                aplicaciones móviles conectadas a APIs personalizadas.</p>
+                        </div>
+                        <div class="item-img">
+                            <div class="image-wrap">
+                                <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1461749280684-dccba630e2f6.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="mbr-section-btn">
+                                <a class="btn btn-primary display-4" href="#">Contáctame</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-image col-12 col-lg-6">
+                    <div class="item-wrapper">
+                        <div class="item-content">
+                            <h4 class="item-title mbr-fonts-style display-5">Eficiencia Operativa</h4>
+                            <p class="item-text mbr-fonts-style display-4">Mi enfoque es la digitalización de procesos
+                                para que tu negocio funcione como un reloj suizo.</p>
+                        </div>
+                        <div class="item-img">
+                            <div class="image-wrap">
+                                <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1629904853893-c2c8981a1dc5.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="mbr-section-btn">
+                                <a class="btn btn-primary display-4" href="#">Contáctame</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="image01 progressm5 cid-uV2o8zIk1C mbr-fullscreen"
+        data-bg-video="https://www.youtube.com/embed/mOFoh9FUR8w?autoplay=1&amp;loop=1&amp;playlist=mOFoh9FUR8w&amp;t=20&amp;mute=1&amp;playsinline=1&amp;controls=0&amp;showinfo=0&amp;autohide=1&amp;allowfullscreen=true&amp;mode=transparent"
+        id="video-3-uV2o8zIk1C">
+        <div class="mbr-background-video-preview"
+            style="display: block; background-size: cover; background-position: center center; background-image: url(&quot;https://img.youtube.com/vi/mOFoh9FUR8w/maxresdefault.jpg&quot;);">
+        </div>
+        <div style="overflow: hidden; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;">
+            <div style="background: rgb(0, 0, 0); inset: 0px;">
+                <div class="mbr-video-foreground"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; overflow: hidden;">
+                    <iframe class="mbr-background-video" id="ytplayer-278015"
+                        style="margin-top: 0px; max-width: initial; transition-property: opacity; transition-duration: 1000ms; pointer-events: none; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; transform: scale(1.2);"
+                        frameborder="0" allowfullscreen=""
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" title="Developer Coding Background"
+                        width="1629" height="916"
+                        src="https://www.youtube.com/embed/mOFoh9FUR8w?autoplay=1&amp;mute=0&amp;controls=0&amp;enablejsapi=1&amp;allowfullscreen=true&amp;iv_load_policy=3&amp;modestbranding=1&amp;origin=https%3A%2F%2F1771470.mobirisesite.com&amp;rel=0&amp;mode=transparent&amp;showinfo=0&amp;html5=1&amp;version=3&amp;playerapiid=iframe_YTP_1624972482514&amp;widgetid=1&amp;forigin=https%3A%2F%2F1771470.mobirisesite.com%2F&amp;aoriginsup=1&amp;gporigin=https%3A%2F%2Fa.mobirise.com%2F&amp;vf=1"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mbr-fallback-image disabled"></div>
+        <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(0, 24, 25);"></div>
+
+        <div class="container">
+            <div class="row content-wrapper">
+                <div class="col-12">
+                    <div class="image-wrap"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="tabs01 tabs progressm5 cid-uV2o8zI9Uu" id="features-9-uV2o8zI9Uu">
+
+
+
+
+
+        <div class="container">
+            <div class="row items-wrapper">
+                <div class="col-12 col-lg-4 card">
+                    <div class="title-wrapper">
+                        <h2 class="mbr-section-title mbr-fonts-style display-5">Mis Herramientas de Poder</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 card">
+                    <div class="tabs-wrapper">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item first mbr-fonts-style">
+                                <a class="nav-link show active mbr-fonts-style display-4" role="tab" data-toggle="tab"
+                                    data-bs-toggle="tab" href="#features-9-uV2o8zI9Uu_tab0"
+                                    aria-selected="true">JavaScript</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mbr-fonts-style display-4" role="tab" data-toggle="tab"
+                                    data-bs-toggle="tab" href="#features-9-uV2o8zI9Uu_tab1"
+                                    aria-selected="true">Python</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mbr-fonts-style display-4" role="tab" data-toggle="tab"
+                                    data-bs-toggle="tab" href="#features-9-uV2o8zI9Uu_tab2" aria-selected="true">C#</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mbr-fonts-style display-4" role="tab" data-toggle="tab"
+                                    data-bs-toggle="tab" href="#features-9-uV2o8zI9Uu_tab3"
+                                    aria-selected="true">MySQL</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 card">
+                    <div class="tab-content">
+                        <div id="features-9-uV2o8zI9Uu_tab0" class="tab-pane in active show" role="tabpanel">
+                            <div class="content-wrapper">
+                                <div class="text-wrapper">
+                                    <p class="item-text mbr-fonts-style display-7">El rey de la web, lo domino para
+                                        crear experiencias interactivas y aplicaciones dinámicas.</p>
+                                </div>
+                                <div class="image-wrapper">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1607743386760-88ac62b89b8a.jpeg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="features-9-uV2o8zI9Uu_tab1" class="tab-pane" role="tabpanel">
+                            <div class="content-wrapper">
+                                <div class="text-wrapper">
+                                    <p class="item-text mbr-fonts-style display-7">Un caballo de batalla versátil para
+                                        backend, scripting y automatización. ¡Python es mi cómplice!</p>
+                                </div>
+                                <div class="image-wrapper">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1534972195531-d756b9bfa9f2.jpeg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="features-9-uV2o8zI9Uu_tab2" class="tab-pane" role="tabpanel">
+                            <div class="content-wrapper">
+                                <div class="text-wrapper">
+                                    <p class="item-text mbr-fonts-style display-7">Potente para aplicaciones
+                                        empresariales y desarrollo de juegos. ¡C# es mi espada!</p>
+                                </div>
+                                <div class="image-wrapper">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1607799279861-4dd421887fb3.jpeg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="features-9-uV2o8zI9Uu_tab3" class="tab-pane" role="tabpanel">
+                            <div class="content-wrapper">
+                                <div class="text-wrapper">
+                                    <p class="item-text mbr-fonts-style display-7">La base de datos relacional que
+                                        organiza el caos. ¡MySQL es mi bóveda!</p>
+                                </div>
+                                <div class="image-wrapper">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1605379399642-870262d3d051.jpeg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="article02 progressm5 cid-uV2o8zIcVo" id="generic-text-2-uV2o8zIcVo">
+
+
+
+
+
+        <div class="container">
+            <div class="row items-wrapper">
+                <div class="col-12 col col-lg-6">
+                    <div class="text-wrapper">
+                        <p class="mbr-text mbr-fonts-style display-5">Busco desafíos donde la tecnología sea la
+                            respuesta. ¡Dame un problema y te daré una solución elegante!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="slider01 mbr-embla progressm5 cid-uV2o8zJYvP" id="features-10-uV2o8zJYvP">
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-wrapper">
+                        <div class="title-wrapper">
+                            <h2 class="mbr-section-title mbr-fonts-style display-2">Mi ADN</h2>
+                            <div class="text-wrapper">
+                                <p class="mbr-text mbr-fonts-style display-4">Ingeniero Computacional con pasión por la
+                                    innovación y la resolución de problemas.</p>
+                            </div>
+                        </div>
+                        <div class="slider-wrapper">
+                            <div class="embla" data-skip-snaps="true" data-align="center"
+                                data-contain-scroll="trimSnaps" data-loop="true" data-auto-play-interval="4"
+                                data-draggable="true">
+                                <div class="embla__viewport is-draggable">
+                                    <div class="embla__container" style="transform: translate3d(-2.40964%, 0px, 0px);">
+                                        <div class="embla__slide slider-image item is-selected"
+                                            style="margin-left: 1rem; margin-right: 1rem; left: 0%;">
+                                            <div class="slide-content">
+                                                <div class="item-wrapper">
+                                                    <div class="item-content">
+                                                        <h4 class="item-title mbr-fonts-style display-5">Desarrollo de
+                                                            Software</h4>
+                                                    </div>
+                                                    <div class="item-img item-number">
+                                                        <div class="item-wrap item-number">
+                                                            <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1542831371-29b0f74f9713.jpeg"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="embla__slide slider-image item"
+                                            style="margin-left: 1rem; margin-right: 1rem;">
+                                            <div class="slide-content">
+                                                <div class="item-wrapper">
+                                                    <div class="item-content">
+                                                        <h4 class="item-title mbr-fonts-style display-5">Integración de
+                                                            Sistemas</h4>
+                                                    </div>
+                                                    <div class="item-img item-number">
+                                                        <div class="item-wrap item-number">
+                                                            <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1522252234503-e356532cafd5.jpeg"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="embla__slide slider-image item"
+                                            style="margin-left: 1rem; margin-right: 1rem;">
+                                            <div class="slide-content">
+                                                <div class="item-wrapper">
+                                                    <div class="item-content">
+                                                        <h4 class="item-title mbr-fonts-style display-5">Optimización
+                                                            Continua</h4>
+                                                    </div>
+                                                    <div class="item-img item-number">
+                                                        <div class="item-wrap item-number">
+                                                            <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1629904853716-f0bc54eea481.jpeg"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="embla__button embla__button--prev">
+                                    <span class="mobi-mbri mobi-mbri-left mbr-iconfont" aria-hidden="true"></span>
+                                    <span
+                                        class="sr-only visually-hidden visually-hidden visually-hidden">Previous</span>
+                                </button>
+                                <button class="embla__button embla__button--next">
+                                    <span class="mobi-mbri mobi-mbri-right mbr-iconfont" aria-hidden="true"></span>
+                                    <span class="sr-only visually-hidden visually-hidden visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="header02 progressm5 cid-uV2o8zJ5VV mbr-fullscreen mbr-parallax-background"
+        id="hero-2-uV2o8zJ5VV" style="z-index: 0; background-image: none; position: relative;">
+
+
+
+        <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(0, 24, 25);"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-wrapper">
+                        <h1 class="mbr-section-title mbr-fonts-style display-1">Código y Café</h1>
+                        <div class="desc-wrapper">
+                            <p class="mbr-desc mbr-fonts-style display-7">Ingeniero de software listo para construir tu
+                                próxima gran idea.</p>
+                        </div>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-2">Transformo conceptos complejos en software
+                                funcional y elegante.</p>
+                        </div>
+                        <div class="mbr-section-btn">
+                            <a class="btn btn-primary display-4" href="#">Contáctame</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="jarallax-container-1"
+            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
+            <div
+                style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://r.mobirisesite.com/1771470/assets/images/photo-1498050108023-c5249f4df085.jpeg&quot;); position: absolute; top: 0px; left: 0px; width: 934px; height: 911px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: 0px; transform: translate3d(0px, -7773.01px, 0px);">
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="slider02 mbr-embla progressm5 cid-uV2o8zKteD" id="features-11-uV2o8zKteD">
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-wrapper">
+                        <div class="title-wrapper">
+                            <div class="desc-wrapper">
+                                <p class="mbr-desc mbr-fonts-style display-4">Mis Superpoderes</p>
+                            </div>
+                            <h2 class="mbr-section-title mbr-fonts-style display-2">Habilidades Destacadas</h2>
+                            <div class="text-wrapper">
+                                <p class="mbr-text mbr-fonts-style display-4">Soy un mago de la tecnología, capaz de
+                                    hacer que las APIs RESTful y las aplicaciones móviles cobren vida con React Native.
+                                    Mi especialidad es la integración de sistemas y la creación de microservicios que
+                                    funcionan como un reloj suizo.</p>
+                            </div>
+                        </div>
+                        <div class="slider-wrapper">
+                            <div class="embla" data-skip-snaps="true" data-align="center"
+                                data-contain-scroll="trimSnaps" data-loop="true" data-auto-play-interval="4"
+                                data-draggable="true">
+                                <div class="embla__viewport is-draggable">
+                                    <div class="embla__container" style="transform: translate3d(1.05422%, 0px, 0px);">
+                                        <div class="embla__slide slider-image item is-selected"
+                                            style="margin-left: 0rem; margin-right: 0rem; left: 0%;">
+                                            <div class="slide-content">
+                                                <div class="item-wrapper">
+                                                    <div class="item-img">
+                                                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1617042375876-a13e36732a04.jpeg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <div class="title-wrap">
+                                                            <h4 class="item-title mbr-fonts-style display-7">APIs
+                                                                RESTful</h4>
+                                                        </div>
+                                                        <div class="text-wrap">
+                                                            <p class="item-text mbr-fonts-style display-4">Diseño e
+                                                                implemento APIs robustas y escalables que son el alma de
+                                                                las aplicaciones modernas.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="embla__slide slider-image item is-selected"
+                                            style="margin-left: 0rem; margin-right: 0rem; left: 0%;">
+                                            <div class="slide-content">
+                                                <div class="item-wrapper">
+                                                    <div class="item-img">
+                                                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1669023414162-5bb06bbff0ec.jpeg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <div class="title-wrap">
+                                                            <h4 class="item-title mbr-fonts-style display-7">React
+                                                                Native</h4>
+                                                        </div>
+                                                        <div class="text-wrap">
+                                                            <p class="item-text mbr-fonts-style display-4">Creo
+                                                                experiencias móviles fluidas y atractivas para iOS y
+                                                                Android con una sola base de código.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="embla__slide slider-image item"
+                                            style="margin-left: 0rem; margin-right: 0rem;">
+                                            <div class="slide-content">
+                                                <div class="item-wrapper">
+                                                    <div class="item-img">
+                                                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1584949091598-c31daaaa4aa9.jpeg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <div class="title-wrap">
+                                                            <h4 class="item-title mbr-fonts-style display-7">
+                                                                Microservicios</h4>
+                                                        </div>
+                                                        <div class="text-wrap">
+                                                            <p class="item-text mbr-fonts-style display-4">Descompongo
+                                                                sistemas complejos en piezas manejables, optimizando el
+                                                                rendimiento y la agilidad.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="embla__slide slider-image item"
+                                            style="margin-left: 0rem; margin-right: 0rem;">
+                                            <div class="slide-content">
+                                                <div class="item-wrapper">
+                                                    <div class="item-img">
+                                                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1551434678-e076c223a692.jpeg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <div class="title-wrap">
+                                                            <h4 class="item-title mbr-fonts-style display-7">Integración
+                                                            </h4>
+                                                        </div>
+                                                        <div class="text-wrap">
+                                                            <p class="item-text mbr-fonts-style display-4">Conecto
+                                                                sistemas dispares para que hablen el mismo idioma,
+                                                                creando flujos de trabajo eficientes.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="embla__slide slider-image item is-selected"
+                                            style="margin-left: 0rem; margin-right: 0rem; left: -489.458%;">
+                                            <div class="slide-content">
+                                                <div class="item-wrapper">
+                                                    <div class="item-img">
+                                                        <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1623479322729-28b25c16b011.jpeg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="item-content">
+                                                        <div class="title-wrap">
+                                                            <h4 class="item-title mbr-fonts-style display-7">
+                                                                Optimización</h4>
+                                                        </div>
+                                                        <div class="text-wrap">
+                                                            <p class="item-text mbr-fonts-style display-4">Me aseguro de
+                                                                que las plataformas digitales no solo funcionen, sino
+                                                                que brillen con eficiencia.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="embla__button embla__button--prev">
+                                    <span class="mobi-mbri mobi-mbri-left mbr-iconfont" aria-hidden="true"></span>
+                                    <span
+                                        class="sr-only visually-hidden visually-hidden visually-hidden">Previous</span>
+                                </button>
+                                <button class="embla__button embla__button--next">
+                                    <span class="mobi-mbri mobi-mbri-right mbr-iconfont" aria-hidden="true"></span>
+                                    <span class="sr-only visually-hidden visually-hidden visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mbr-section-btn">
+                            <a class="btn btn-primary display-4" href="#">Ver Proyectos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="features08 progressm5 cid-uV2o8zKkB0" id="features-6-uV2o8zKkB0">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-wrapper">
+                        <div class="desc-wrapper">
+                            <p class="mbr-desc mbr-fonts-style display-4">Mi Arsenal</p>
+                        </div>
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">Herramientas del Oficio</h2>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-4">Domino un abanico de lenguajes y bases de
+                                datos para dar vida a tus visiones.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row items-wrapper">
+                <div class="item features-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1580894908361-967195033215.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">JavaScript</h4>
+                                    <p class="item-text mbr-fonts-style display-4">El lenguaje universal de la web, lo
+                                        manejo con maestría.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1602992708529-c9fdb12905c9.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">Python</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Para automatización, backend y más,
+                                        Python es mi navaja suiza.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="image-wrap">
+                                    <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1484417894907-623942c8ee29.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="item-content">
+                                    <h4 class="item-title mbr-fonts-style display-7">MySQL</h4>
+                                    <p class="item-text mbr-fonts-style display-4">Organizo datos como un bibliotecario
+                                        digital, rápido y preciso.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="features06 progressm5 cid-uV2o8zLePK" id="features-4-uV2o8zLePK">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-wrapper">
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">Mi Filosofía de Trabajo</h2>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-4">Busco desafíos que me inspiren a crear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row items-wrapper">
+                <div class="item features-without-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-content">
+                            <div class="icon-wrapper">
+                                <a href="#">
+                                    <span class="mbr-iconfont socicon-google socicon"></span>
+                                </a>
+                            </div>
+                            <h4 class="item-title mbr-fonts-style display-4">Innovación</h4>
+                            <p class="item-text mbr-fonts-style display-4">Siempre buscando nuevas formas de resolver
+                                problemas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-content">
+                            <div class="icon-wrapper">
+                                <a href="#">
+                                    <span class="mbr-iconfont socicon-amazon socicon"></span>
+                                </a>
+                            </div>
+                            <h4 class="item-title mbr-fonts-style display-4">Colaboración</h4>
+                            <p class="item-text mbr-fonts-style display-4">Trabajo bien en equipo para lograr grandes
+                                cosas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item features-without-image col-12 col-lg-4">
+                    <div class="item-wrapper">
+                        <div class="item-content">
+                            <div class="icon-wrapper">
+                                <a href="#">
+                                    <span class="mbr-iconfont socicon-apple socicon"></span>
+                                </a>
+                            </div>
+                            <h4 class="item-title mbr-fonts-style display-4">Resultados</h4>
+                            <p class="item-text mbr-fonts-style display-4">Me enfoco en entregar soluciones de alta
+                                calidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="form01 progressm5 cid-uV2o8zLdMj" id="contact-form-1-uV2o8zLdMj">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-wrapper">
+                        <div class="image-wrapper">
+                            <img src="https://r.mobirisesite.com/1771470/assets/images/photo-1635830625698-3b9bd74671ca.jpeg"
+                                alt="">
+                        </div>
+                        <div class="content-wrap">
+                            <div class="title-wrapper">
+                                <h2 class="mbr-section-title mbr-fonts-style display-2">¿Hablamos de Código?</h2>
+                                <div class="text-wrapper">
+                                    <p class="mbr-text mbr-fonts-style display-4">Envía un mensaje y veamos qué podemos
+                                        construir juntos.</p>
+                                </div>
+                            </div>
+                            <div class="mbr-form form-wrapper" data-form-type="formoid">
+                                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler"
+                                    data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true"
+                                        value="xdrmHzjfG21sWmSuKsD+UGNMwMpioPoMzBucvQtZUeFExx5Oz3CuvzU+KmpJJWSrmiiczQKhZhmUje58SjtMWNjzIe8G8PUcDsHl3OmXilzaOwWiiOizQlREJYf58WBz">
+                                    <div class="row">
+                                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">
+                                            Thanks
+                                            for
+                                            filling out the form!</div>
+                                        <div hidden="hidden" data-form-alert-danger=""
+                                            class="alert alert-danger col-12">
+                                            Oops...! some problem!
+                                        </div>
+                                    </div>
+                                    <div class="dragArea row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3" data-for="text">
+                                            <input type="text" name="text" placeholder="Nombre" data-form-field="text"
+                                                class="form-control display-4" value=""
+                                                id="text-contact-form-1-uV2o8zLdMj">
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3 mb-3 mb-3 mb-3 mb-3"
+                                            data-for="email">
+                                            <input type="email" name="email" placeholder="Email" data-form-field="email"
+                                                class="form-control display-4" value=""
+                                                id="email-contact-form-1-uV2o8zLdMj">
+                                        </div>
+                                        <div class="col mbr-section-btn">
+                                            <button type="submit" class="btn btn-primary display-4">Enviar
+                                                Mensaje</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="contacts01 progressm5 cid-uV2o8zLwlA" id="contacts-3-uV2o8zLwlA">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mbr-section-title mbr-fonts-style display-2">Conecta</h2>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="list-wrapper">
+                        <ul class="list mbr-fonts-style display-7">
+                            <li class="item-wrap">+1 (555) 123-4567</li>
+                            <li class="item-wrap">contacto@ingenierodigital.com</li>
+                            <li class="item-wrap">Silicon Valley, CA</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="social-wrapper">
+                        <div class="social-wrap">
+                            <div class="soc-item">
+                                <a href="#">
+                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="#">
+                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="#">
+                                    <span class="mbr-iconfont socicon socicon-linkedin"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="#">
+                                    <span class="mbr-iconfont socicon socicon-youtube"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="#">
+                                    <span class="mbr-iconfont socicon socicon-github"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section data-bs-version="5.1" class="footer01 progressm5 cid-uV2o8zMDau" once="footers" id="footer-1-uV2o8zMDau">
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+                <div class="col-12">
+
+                </div>
+            </div>
+            <div class="row items-wrapper">
+
+
+
+            </div>
+            <div class="row">
+                <div class="col-12">
+
+                    <p class="mbr-copy mbr-fonts-style display-4">© 2024 Ingeniero Digital. Todos los derechos
+                        reservados, ¡y algunos secretos también!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://r.mobirisesite.com/1771470/assets/web/assets/jquery/jquery.min.js?rnd=1756262388136"></script>
+    <script
+        src="https://r.mobirisesite.com/1771470/assets/bootstrap/js/bootstrap.bundle.min.js?rnd=1756262388136"></script>
+    <script src="https://r.mobirisesite.com/1771470/assets/parallax/jarallax.js?rnd=1756262388136"></script>
+    <script src="https://r.mobirisesite.com/1771470/assets/smoothscroll/smooth-scroll.js?rnd=1756262388136"></script>
+    <script src="https://r.mobirisesite.com/1771470/assets/ytplayer/index.js?rnd=1756262388136"></script>
+    <script src="https://r.mobirisesite.com/1771470/assets/dropdown/js/navbar-dropdown.js?rnd=1756262388136"></script>
+    <script src="https://r.mobirisesite.com/1771470/assets/embla/embla.min.js?rnd=1756262388136"></script>
+    <script src="https://r.mobirisesite.com/1771470/assets/embla/script.js?rnd=1756262388136"></script>
+    <script
+        src="https://r.mobirisesite.com/1771470/assets/mbr-switch-arrow/mbr-switch-arrow.js?rnd=1756262388136"></script>
+    <script src="https://r.mobirisesite.com/1771470/assets/scrollgallery/scroll-gallery.js?rnd=1756262388136"></script>
+    <script src="https://r.mobirisesite.com/1771470/assets/vimeoplayer/player.js?rnd=1756262388136"></script>
+    <script src="https://r.mobirisesite.com/1771470/assets/mbr-tabs/mbr-tabs.js?rnd=1756262388136"></script>
+    <script src="https://r.mobirisesite.com/1771470/assets/theme/js/script.js?rnd=1756262388136"></script>
+    <script src="https://r.mobirisesite.com/1771470/assets/formoid.min.js?rnd=1756262388136"></script>
 </body>
+
 </html>
